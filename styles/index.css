@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-700 underline;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-bold;
+}
+
+ul,
+ol,
+p {
+  @apply mb-4;
+}
+
+ul,
+ol {
+  @apply pl-4;
+}
+
+ul {
+  @apply list-disc;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+li > p {
+  @apply mb-0;
+}
+
+li {
+  @apply mb-2;
+}
