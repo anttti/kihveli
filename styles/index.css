@@ -2,51 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-gray-800;
+}
+
 a {
   @apply text-blue-700 underline;
-}
-
-h1 {
-  @apply text-2xl;
-}
-
-h2 {
-  @apply text-xl;
-}
-
-h3 {
-  @apply text-lg;
 }
 
 h1,
 h2,
 h3 {
-  @apply font-bold;
+  @apply text-lg font-bold uppercase tracking-wide;
 }
 
-ul,
-ol,
-p {
+ul[not(:last-child)],
+ol[not(:last-child)],
+p[not(:last-child)] {
   @apply mb-4;
 }
 
-ul,
 ol {
-  @apply pl-4;
-}
-
-ul {
-  @apply list-disc;
+  @apply pl-6;
 }
 
 ol {
   @apply list-decimal;
 }
 
-li > p {
+li {
+  @apply mb-1;
+}
+
+/* TODO: Miksi alla oleva ei ole negaatio li:last-of-type stä? */
+/* li[not(:last-of-type)] {
+  @apply bg-red-500;
+} */
+
+li:last-of-type {
   @apply mb-0;
 }
 
-li {
-  @apply mb-2;
+li > p {
+  @apply mb-0;
 }

@@ -5,33 +5,25 @@ export const siteTitle = "Haarukka";
 
 export default function Layout({ children, home }) {
   return (
-    <div className="container mx-auto px-4">
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Reseptit" />
       </Head>
 
-      <header>
-        {home ? (
-          <h1>{siteTitle}</h1>
-        ) : (
-          <h2>
+      <header className="bg-blue-700 text-white py-4">
+        <div className="container mx-auto px-4">
+          <h1 className="text-base leading-none">
             <Link href="/">
-              <a>{siteTitle}</a>
+              <a className="text-white no-underline uppercase tracking-wider">
+                {siteTitle}
+              </a>
             </Link>
-          </h2>
-        )}
+          </h1>
+        </div>
       </header>
 
-      <main>{children}</main>
-
-      {!home && (
-        <footer>
-          <Link href="/">
-            <a>← Etusivulle</a>
-          </Link>
-        </footer>
-      )}
-    </div>
+      <main className="container mx-auto p-4">{children}</main>
+    </>
   );
 }
