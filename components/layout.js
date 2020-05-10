@@ -9,6 +9,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Reseptit" />
+        <title>{siteTitle}</title>
       </Head>
 
       <header className="bg-blue-700 text-white py-4">

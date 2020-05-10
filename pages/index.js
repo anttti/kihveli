@@ -1,14 +1,15 @@
 import Head from "next/head";
 import Link from "next/link";
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 import { getSortedRecipesData } from "../lib/recipes";
+import { useOvermind } from "../overmind";
 
-export default function Home({ allRecipesData }) {
+export default function Home() {
+  const overmind = useOvermind();
+  const { allRecipesData } = overmind.state;
+
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
       <section>
         <ul>
           {allRecipesData.map(({ id, date, title }) => (
