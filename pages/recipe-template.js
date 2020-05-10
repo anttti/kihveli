@@ -4,11 +4,12 @@ import recipes from "../recipes/recipes.json";
 import { useOvermind } from "../overmind";
 
 export default function RecipeTemplate() {
-  const overmind = useOvermind();
+  const { state, actions } = useOvermind();
 
   return (
     <Layout>
-      {overmind.state.recipes.map((recipe) => (
+      <button onClick={actions.selectRecipe}>Select</button>
+      {state.recipes.map((recipe) => (
         <Recipe key={recipe.id} recipe={recipe} />
       ))}
     </Layout>

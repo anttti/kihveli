@@ -56,5 +56,35 @@
       "Levitä leikkuulaudan päälle puhdas keittiöpyyhe tai pari kerrosta talouspaperia. Ota tofu pois pakkauksesta ja leikkaa se pituussuunnassa puoliksi ja aseta palat vierekkäin pyyhkeen keskelle, ja kääri kevyesti paketiksi. Puristele pakettia, jotta saat tofusta irti mahdollisimman paljon nestettä. Näin se imee itseensä mahdollisimman paljon makuja. Poista pyyhe tai paperit tofun ympäriltä.",
       "Murustele tofu kulhoon melko hienoksi muruksi. Lisää hummus, kaurakerma ja mausteet. Sekoita lusikalla tasaiseksi seokseksi. Tämä on valkokastikkeesi."
     ]
+  },
+  {
+    "id": 1,
+    "ingredients": [
+      {
+        "id": 4,
+        "quantity": 2,
+        "unit": "kynsi",
+        "product": "valkosipuli"
+      },
+      {
+        "id": 5,
+        "product": "mustapippuri",
+        "description": "myllystä"
+      },
+      {
+        "id": 6,
+        "quantity": 780,
+        "unit": "g",
+        "product": "tomaatti-valkosipulipastakastike",
+        "description": "2 * 390g purkki"
+      }
+    ],
+    "name": "Lasagne",
+    "duration": 30,
+    "complexity": 3,
+    "steps": [
+      "Laita uuni lämpiämään -30 asteeseen.",
+      "Syö soijajäätelöä niin että napa ruskaa."
+    ]
   }
 ]
