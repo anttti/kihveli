@@ -5,6 +5,12 @@ import * as actions from "./actions";
 
 export const useOvermind = createHook();
 
+// State structure TODO:
+const state = {
+  recipes: [],
+  selectedRecipes: [], // list of ids
+};
+
 export const useOvermindFromPageProps = (pageProps) => {
   const [overmind, setOvermind] = useState(null);
 

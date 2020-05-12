@@ -1,3 +1,6 @@
-export const selectRecipe = ({ state, effects, actions }) => {
-  console.log("Select recipe");
+export const toggleRecipe = (
+  { state, effects, actions },
+  { id, isSelected }
+) => {
+  console.log("toggle recipe", id, isSelected);
 };

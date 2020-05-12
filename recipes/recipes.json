@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "slug": "nyhtokaura-gnocchivuoka",
     "ingredients": [
       {
         "id": 0,
@@ -59,6 +60,7 @@
   },
   {
     "id": 1,
+    "slug": "lasagne",
     "ingredients": [
       {
         "id": 4,
