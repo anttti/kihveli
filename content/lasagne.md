@@ -1,5 +1,8 @@
 ---
 title: Lasagne
+slug: lasagne
+duration: 60
+complexity: 3
 ingredients:
   - ingredient: Jalotofu (maustamaton)
     quantity: 1
@@ -7,26 +10,27 @@ ingredients:
   - ingredient: hummustahna
     quantity: 225
     unit: g
-  - details: 'esim. Kaslink Kauraruoka juusto, pippuri tai paahdettu sipuli'
+  - details: "esim. Kaslink Kauraruoka juusto, pippuri tai paahdettu sipuli"
     ingredient: kaurakerma
     quantity: 200
     unit: ml
   - ingredient: suola
-    quantity: '1.5'
+    quantity: "1.5"
     unit: tl
   - ingredient: valkosipuli
-    quantity: '2'
+    quantity: "2"
     unit: kynsi
   - ingredient: mustapippuri
   - details: 2 * 390 g tölkki
     ingredient: tomaatti-valkosipulipastakastike
-    quantity: '780'
+    quantity: "780"
     unit: g
   - ingredient: lasagnelevy
   - ingredient: vegaaninen juustoraaste
-    quantity: '200'
+    quantity: "200"
     unit: g
 ---
+
 - Laita uuni lämpiämään 200 asteeseen.
 - Levitä leikkuulaudan päälle puhdas keittiöpyyhe tai pari kerrosta talouspaperia. Ota tofu pois pakkauksesta ja leikkaa se pituussuunnassa puoliksi ja aseta palat vierekkäin pyyhkeen keskelle, ja kääri kevyesti paketiksi. Puristele pakettia, jotta saat tofusta irti mahdollisimman paljon nestettä. Näin se imee itseensä mahdollisimman paljon makuja. Poista pyyhe tai paperit tofun ympäriltä.
 - Murustele tofu kulhoon melko hienoksi muruksi. Lisää hummus, kaurakerma ja mausteet. Sekoita lusikalla tasaiseksi seokseksi. Tämä on valkokastikkeesi.

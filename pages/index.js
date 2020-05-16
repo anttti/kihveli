@@ -5,18 +5,29 @@ import { getSortedRecipesData } from "../lib/recipes";
 import { useOvermind } from "../overmind";
 
 export default function Home() {
-  const overmind = useOvermind();
-  const { allRecipesData } = overmind.state;
+  const { state, actions } = useOvermind();
+  const { allRecipesData } = state;
+
+  const onToggleRecipe = (id, event) => {
+    actions.toggleRecipe({ id, isSelected: event.target.checked });
+  };
 
   return (
     <Layout home>
       <section>
         <ul>
-          {allRecipesData.map(({ id, date, title }) => (
-            <li key={id}>
-              <Link href="/recipes/[id]" as={`/recipes/${id}`}>
-                <a>{title}</a>
-              </Link>
+          {allRecipesData.map((recipe) => (
+            <li>
+              <label>
+                <input
+                  type="checkbox"
+                  onChange={onToggleRecipe.bind(null, recipe.slug)}
+                />
+                {" " + recipe.title}
+                <Link href="/recipes/[id]" as={`/recipes/${recipe.slug}`}>
+                  <a>&nbsp;(resepti)</a>
+                </Link>
+              </label>
             </li>
           ))}
         </ul>

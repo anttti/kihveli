@@ -2,9 +2,9 @@ export default function Recipe({ recipe }) {
   return (
     <>
       <div className="mb-4">
-        <h1>{recipe.name}</h1>
-        <p>Kesto: {recipe.duration} min</p>
-        <p>Vaiva: {recipe.complexity}</p>
+        <h1>{recipe.title}</h1>
+        {recipe.duration && <p>Kesto: {recipe.duration} min</p>}
+        {recipe.complexity && <p>Vaiva: {recipe.complexity}</p>}
       </div>
 
       <div className="grid grid-cols-3">
@@ -14,15 +14,15 @@ export default function Recipe({ recipe }) {
           </h2>
           <ul className="p-0">
             {recipe.ingredients.map((ing) => (
-              <li key={ing.id}>
+              <li key={ing.ingredient}>
                 <div className="flex">
                   <div className="w-24">
                     <span className="font-bold">{ing.quantity}</span> {ing.unit}
                   </div>
-                  <div>{ing.product}</div>
+                  <div>{ing.ingredient}</div>
                 </div>
-                {ing.description && (
-                  <div className="pl-24 text-xs">({ing.description})</div>
+                {ing.details && (
+                  <div className="pl-24 text-xs">({ing.details})</div>
                 )}
               </li>
             ))}
@@ -31,11 +31,7 @@ export default function Recipe({ recipe }) {
 
         <section className="col-span-2 pl-8 p-4">
           <h2 className="text-sm leading-none mb-2">Ohje</h2>
-          <ol>
-            {recipe.steps.map((step, i) => (
-              <li key={i}>{step}</li>
-            ))}
-          </ol>
+          <div dangerouslySetInnerHTML={{ __html: recipe.contentHtml }} />
         </section>
       </div>
     </>

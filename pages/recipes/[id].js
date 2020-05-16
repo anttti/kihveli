@@ -1,15 +1,11 @@
 import Layout from "../../components/layout";
+import Recipe from "../../components/recipe";
 import { getAllRecipeIds, getRecipeData } from "../../lib/recipes";
 
-export default function Recipe({ recipeData }) {
+export default function RecipePage({ recipeData }) {
   return (
     <Layout>
-      <h1>{recipeData.title}</h1>
-      <p>Kesto: {recipeData.duration} min</p>
-      <p>Haaste: {recipeData.complexity}</p>
-      <div dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
-
-      <pre className="mt-8">{JSON.stringify(recipeData, null, 2)}></pre>
+      <Recipe recipe={recipeData} />
     </Layout>
   );
 }
