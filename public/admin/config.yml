@@ -18,10 +18,25 @@ collections:
           widget: "list",
           fields:
             [
-              { label: "Määrä", name: "quantity", widget: "string" },
-              { label: "Yksikkö", name: "unit", widget: "string" },
+              {
+                label: "Määrä",
+                name: "quantity",
+                widget: "string",
+                required: false,
+              },
+              {
+                label: "Yksikkö",
+                name: "unit",
+                widget: "string",
+                required: false,
+              },
               { label: "Ainesosa", name: "ingredient", widget: "string" },
-              { label: "Tarkenne", name: "details", widget: "string" },
+              {
+                label: "Tarkenne",
+                name: "details",
+                widget: "string",
+                required: false,
+              },
             ],
         }
       - { label: "Ohje", name: "body", widget: "markdown" }
