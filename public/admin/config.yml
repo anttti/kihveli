@@ -19,6 +19,7 @@ collections:
           fields:
             [
               { label: "Määrä", name: "quantity", widget: "number" },
+              { label: "Yksikkö", name: "unit", widget: "string" },
               { label: "Ainesosa", name: "ingredient", widget: "string" },
             ],
         }
