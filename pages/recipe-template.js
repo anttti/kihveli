@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/layout";
 import Recipe from "../components/recipe";
-import recipes from "../recipes/recipes.json";
 import { useOvermind } from "../overmind";
 
 export default function RecipeTemplate() {
@@ -39,7 +38,7 @@ export default function RecipeTemplate() {
 export async function getStaticProps() {
   return {
     props: {
-      recipes,
+      recipes: [],
     },
   };
 }

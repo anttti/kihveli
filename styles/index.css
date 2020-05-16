@@ -16,9 +16,9 @@ h3 {
   @apply text-lg font-bold uppercase tracking-wide;
 }
 
-ul[not(:last-child)],
-ol[not(:last-child)],
-p[not(:last-child)] {
+ul:not(:last-child),
+ol:not(:last-child),
+p:not(:last-child) {
   @apply mb-4;
 }
 
@@ -33,11 +33,6 @@ ol {
 li {
   @apply mb-1;
 }
-
-/* TODO: Miksi alla oleva ei ole negaatio li:last-of-type stä? */
-/* li[not(:last-of-type)] {
-  @apply bg-red-500;
-} */
 
 li:last-of-type {
   @apply mb-0;
