@@ -12,6 +12,20 @@ collections:
     create: true
     fields:
       - { label: "Nimi", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Kesto", name: "duration", widget: "string", required: false }
+      - {
+          label: "Vaiva",
+          name: "complexity",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Annokset",
+          name: "portions",
+          widget: "string",
+          required: false,
+        }
       - {
           label: "Ainesosat",
           name: "ingredients",

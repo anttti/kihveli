@@ -24,11 +24,11 @@ export default function Home() {
                   checked={state.selectedRecipes.find((r) => r === recipe.slug)}
                   onChange={onToggleRecipe.bind(null, recipe.slug)}
                 />
-                {" " + recipe.title}
-                <Link href="/recipes/[id]" as={`/recipes/${recipe.slug}`}>
-                  <a>&nbsp;(resepti)</a>
-                </Link>
+                {" " + recipe.title + " "}
               </label>
+              <Link href="/recipes/[id]" as={`/recipes/${recipe.slug}`}>
+                <a>(resepti)</a>
+              </Link>
             </li>
           ))}
         </ul>

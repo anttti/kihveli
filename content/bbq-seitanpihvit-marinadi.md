@@ -1,31 +1,33 @@
 ---
 title: BBQ-seitanpihvit (marinadi)
+slug: "bbq-seitanpihvit-marinadi"
 ingredients:
   - ingredient: BBQ-kastike
-    quantity: '1.5'
+    quantity: "1.5"
     unit: dl
   - ingredient: vesi
-    quantity: '1.5'
+    quantity: "1.5"
     unit: dl
   - ingredient: rypsiöljy
-    quantity: '0.5'
+    quantity: "0.5"
     unit: dl
   - ingredient: vaahterasiirappi
-    quantity: '0.75'
+    quantity: "0.75"
     unit: dl
   - ingredient: viski
-    quantity: '0.5'
+    quantity: "0.5"
     unit: dl
   - ingredient: suola
-    quantity: '1'
+    quantity: "1"
     unit: tl
   - ingredient: rosmariini
-    quantity: '1'
+    quantity: "1"
     unit: tl
   - ingredient: valkosipulijauhe
-    quantity: '1'
+    quantity: "1"
     unit: tl
 ---
+
 1. Kuumenna uuni (200°C).
 1. Sekoita kulhossa yhteen kaikki kuivat aineet. Yhdistä vesi ja Sriracha. Tee kuivien aineiden keskelle kolo ja kaada sinne vesiseos ja lisää maapähkinävoi. Sekoita tasaiseksi ja vaivaa taikinaa hetken aikaa.
 1. Muotoile taikina pötköksi ja leikkaa siitä noin 1-2 cm paksuja paloja. Venytä ja muotoile pihvit haluamaasi kokoon ja laita ne uunipellille leivinpaperin päälle.

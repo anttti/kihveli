@@ -1,31 +1,33 @@
 ---
 title: BBQ-seitanpihvit
+slug: "bbq-seitanpihvit"
 ingredients:
   - ingredient: gluteenijauho
-    quantity: '3'
+    quantity: "3"
     unit: dl
   - ingredient: kikhernejauho
-    quantity: '0.5'
+    quantity: "0.5"
     unit: dl
   - ingredient: sipulijauhe
-    quantity: '1'
+    quantity: "1"
     unit: rkl
   - ingredient: savupaprika
-    quantity: '1'
+    quantity: "1"
     unit: rkl
   - ingredient: kasvisliemijauhe
-    quantity: '1'
+    quantity: "1"
     unit: rkl
   - ingredient: vesi
-    quantity: '2'
+    quantity: "2"
     unit: dl
   - ingredient: Sriracha
-    quantity: '1'
+    quantity: "1"
     unit: rkl
   - ingredient: maapähkinävoi
-    quantity: '2'
+    quantity: "2"
     unit: rkl
 ---
+
 1. Kuumenna uuni (200°C).
 1. Sekoita kulhossa yhteen kaikki kuivat aineet. Yhdistä vesi ja Sriracha. Tee kuivien aineiden keskelle kolo ja kaada sinne vesiseos ja lisää maapähkinävoi. Sekoita tasaiseksi ja vaivaa taikinaa hetken aikaa.
 1. Muotoile taikina pötköksi ja leikkaa siitä noin 1-2 cm paksuja paloja. Venytä ja muotoile pihvit haluamaasi kokoon ja laita ne uunipellille leivinpaperin päälle.
