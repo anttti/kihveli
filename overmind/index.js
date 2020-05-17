@@ -13,6 +13,7 @@ const state = {
 
 export const useOvermindFromPageProps = (pageProps) => {
   const [overmind, setOvermind] = useState(null);
+  const isDev = process.env.NODE_ENV === "development";
 
   useEffect(() => {
     const config = {
@@ -20,7 +21,11 @@ export const useOvermindFromPageProps = (pageProps) => {
       actions,
     };
     if (typeof window !== "undefined") {
-      setOvermind(createOvermind(config));
+      setOvermind(
+        createOvermind(config, {
+          devtools: isDev,
+        })
+      );
     } else {
       setOvermind(createOvermindSSR(config));
     }
