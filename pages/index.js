@@ -21,6 +21,7 @@ export default function Home() {
               <label>
                 <input
                   type="checkbox"
+                  checked={state.selectedRecipes.find((r) => r === recipe.slug)}
                   onChange={onToggleRecipe.bind(null, recipe.slug)}
                 />
                 {" " + recipe.title}
