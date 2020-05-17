@@ -1,0 +1,7 @@
+- [] Group shopping list by aisle (categorise ingredients somehow)
+- [] Normalize ingredient amounts (should be possible to combine 2 dl and 200 ml and output 4 dl)
+- [] Save selections to localStorage
+- [] Serialize selections to URL
+- [] Allow adjusting portion size (should happen on the selection page and on the recipe page)
+- [] Week planning functionality
+- [] Randomize food for a week
