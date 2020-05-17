@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export const siteTitle = "Haarukka";
+export const siteTitle = "Kihveli";
 
 export default function Layout({ children, home }) {
   return (
