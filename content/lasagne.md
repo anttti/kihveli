@@ -12,8 +12,8 @@ ingredients:
     unit: g
   - details: "esim. Kaslink Kauraruoka juusto, pippuri tai paahdettu sipuli"
     ingredient: kaurakerma
-    quantity: 200
-    unit: ml
+    quantity: 2
+    unit: dl
   - ingredient: suola
     quantity: "1.5"
     unit: tl

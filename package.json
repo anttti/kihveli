@@ -5,10 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "watch-test": "jest --watch"
   },
   "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
     "gray-matter": "^4.0.2",
+    "jest": "^26.0.1",
     "next": "9.3.5",
     "overmind": "^23.0.1",
     "overmind-react": "^24.0.1",

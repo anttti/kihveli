@@ -3,6 +3,7 @@ title: Nyhtökaura-gnocchivuoka
 slug: nyhtokaura-gnocchivuoka
 ingredients:
   - ingredient: sipuli
+    unit: "kpl"
     quantity: "1"
   - ingredient: valkosipuli
     quantity: "1"

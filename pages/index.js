@@ -31,6 +31,15 @@ export default function Home() {
             </li>
           ))}
         </ul>
+
+        <h2>Ostoslista</h2>
+        <ul>
+          {state.selectedIngredients.map((ingr) => (
+            <li>{`${ingr.quantity || ""} ${ingr.unit || ""} ${
+              ingr.ingredient
+            }`}</li>
+          ))}
+        </ul>
       </section>
     </Layout>
   );
