@@ -1,6 +1,10 @@
 import Layout from "../../components/layout";
 import Recipe from "../../components/recipe";
-import { getAllRecipeIds, getRecipeData } from "../../lib/recipes";
+import {
+  getAllRecipeIds,
+  getRecipeData,
+  getSortedRecipesData,
+} from "../../lib/recipes";
 
 export default function RecipePage({ recipeData }) {
   return (
@@ -19,9 +23,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const recipeData = await getRecipeData(params.id);
+  const recipeSlug = params.id;
+  const recipeData = await getRecipeData(recipeSlug);
+  const allRecipesData = getSortedRecipesData();
   return {
     props: {
+      allRecipesData,
       recipeData,
     },
   };
