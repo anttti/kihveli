@@ -25,6 +25,10 @@ export default function App({ Component, pageProps }) {
     return (
       <Provider value={overmind}>
         <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+            rel="stylesheet"
+          />
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Component {...pageProps} />

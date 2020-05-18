@@ -3,8 +3,10 @@ export const toggleRecipe = (
   { id, isSelected }
 ) => {
   if (isSelected) {
-    state.selectedRecipes.push(id);
+    state.selectedRecipeSlugs.push(id);
   } else {
-    state.selectedRecipes = state.selectedRecipes.filter((r) => r !== id);
+    state.selectedRecipeSlugs = state.selectedRecipeSlugs.filter(
+      (r) => r !== id
+    );
   }
 };

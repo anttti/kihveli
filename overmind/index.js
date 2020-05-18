@@ -13,13 +13,13 @@ export const useOvermindFromPageProps = (pageProps) => {
   useEffect(() => {
     const config = {
       state: {
-        selectedRecipes: [],
-        selectedIngredients: (state) =>
-          recipesToIngredients(
-            state.selectedRecipes.map((slug) =>
-              state.allRecipesData.find((recipe) => recipe.slug === slug)
-            )
+        selectedRecipeSlugs: [],
+        selectedRecipes: (state) =>
+          state.selectedRecipeSlugs.map((slug) =>
+            state.allRecipesData.find((recipe) => recipe.slug === slug)
           ),
+        selectedIngredients: (state) =>
+          recipesToIngredients(state.selectedRecipes),
         ...pageProps,
       },
       actions,

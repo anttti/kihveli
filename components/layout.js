@@ -12,11 +12,11 @@ export default function Layout({ children, home }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <header className="bg-blue-700 text-white py-4">
+      <header className="py-8 border-b border-gray-300 border-solid">
         <div className="container mx-auto px-4">
           <h1 className="text-base leading-none">
             <Link href="/">
-              <a className="text-white no-underline uppercase tracking-wider">
+              <a className="text-gray-600 font-black no-underline uppercase tracking-wider">
                 {siteTitle}
               </a>
             </Link>

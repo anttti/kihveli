@@ -4,6 +4,7 @@
 
 body {
   @apply text-gray-800;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 h1,
 h2,
 h3 {
-  @apply text-lg font-bold uppercase tracking-wide;
+  @apply text-lg font-black uppercase tracking-wide;
 }
 
 ul:not(:last-child),
