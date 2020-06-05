@@ -5,14 +5,14 @@ duration: 60
 complexity: 3
 ingredients:
   - ingredient: Jalotofu (maustamaton)
-    quantity: 1
+    quantity: "1"
     unit: pkt
   - ingredient: hummustahna
-    quantity: 225
+    quantity: "225"
     unit: g
   - details: "esim. Kaslink Kauraruoka juusto, pippuri tai paahdettu sipuli"
     ingredient: kaurakerma
-    quantity: 2
+    quantity: "2"
     unit: dl
   - ingredient: suola
     quantity: "1.5"

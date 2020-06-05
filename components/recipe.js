@@ -1,10 +1,38 @@
+import { useState } from "react";
+import _ from "lodash";
+
+const button = "border border-solid border-gray-400 px-2 py-1 rounded mr-2";
+const selectedButton = `${button} bg-gray-400`;
+
 export default function Recipe({ recipe }) {
+  const [portions, setPortions] = useState(1);
+
   return (
     <>
       <div className="mb-4">
         <h1>{recipe.title}</h1>
         {recipe.duration && <p>Kesto: {recipe.duration} min</p>}
         {recipe.complexity && <p>Vaiva: {recipe.complexity}</p>}
+        <p className="mt-2">
+          <button
+            className={portions === 0.5 ? selectedButton : button}
+            onClick={() => setPortions(0.5)}
+          >
+            Puolikas
+          </button>
+          <button
+            className={portions === 1 ? selectedButton : button}
+            onClick={() => setPortions(1)}
+          >
+            Normaali
+          </button>
+          <button
+            className={portions === 2 ? selectedButton : button}
+            onClick={() => setPortions(2)}
+          >
+            Tupla
+          </button>
+        </p>
       </div>
 
       <div className="grid grid-cols-3">
@@ -17,7 +45,12 @@ export default function Recipe({ recipe }) {
               <li key={ing.ingredient}>
                 <div className="flex">
                   <div className="w-24">
-                    <span className="font-bold">{ing.quantity}</span> {ing.unit}
+                    {ing.quantity && (
+                      <span className="font-bold">
+                        {ing.quantity * portions}
+                      </span>
+                    )}
+                    {ing.unit && ` ${ing.unit}`}
                   </div>
                   <div>{ing.ingredient}</div>
                 </div>
