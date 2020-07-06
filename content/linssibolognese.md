@@ -30,8 +30,9 @@ ingredients:
     ingredient: kaneli
     quantity: "0.25"
     unit: tl
-  - details: Ripaus
-    ingredient: savupaprika
+  - ingredient: savupaprikajauhe
+    quantity: "1"
+    unit: ripaus
   - ingredient: yrttitomaattimurska
     quantity: "1"
     unit: tlk

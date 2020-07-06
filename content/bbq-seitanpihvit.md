@@ -11,7 +11,7 @@ ingredients:
   - ingredient: sipulijauhe
     quantity: "1"
     unit: rkl
-  - ingredient: savupaprika
+  - ingredient: savupaprikajauhe
     quantity: "1"
     unit: rkl
   - ingredient: kasvisliemijauhe
