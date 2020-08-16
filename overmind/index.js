@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { createOvermind, createOvermindSSR } from "overmind";
+import { createOvermind, createOvermindSSR, derived } from "overmind";
 import { createHook } from "overmind-react";
 import * as actions from "./actions";
 import { recipesToIngredients } from "../lib/ingredients";
@@ -14,12 +14,14 @@ export const useOvermindFromPageProps = (pageProps) => {
     const config = {
       state: {
         selectedRecipeSlugs: [],
-        selectedRecipes: (state) =>
+        selectedRecipes: derived((state) =>
           state.selectedRecipeSlugs.map((slug) =>
             state.allRecipesData.find((recipe) => recipe.slug === slug)
-          ),
-        selectedIngredients: (state) =>
-          recipesToIngredients(state.selectedRecipes),
+          )
+        ),
+        selectedIngredients: derived((state) =>
+          recipesToIngredients(state.selectedRecipes)
+        ),
         ...pageProps,
       },
       actions,
