@@ -32,6 +32,10 @@ ol {
 }
 
 li {
+  @apply mb-1;
+}
+
+.recipe li {
   @apply mb-3;
 }
 

@@ -62,7 +62,7 @@ export default function Recipe({ recipe }) {
           </ul>
         </section>
 
-        <section className="col-span-5 md:pl-8 p-4">
+        <section className="recipe col-span-5 md:pl-8 p-4">
           <h2 className="text-sm leading-none mb-2">Ohje</h2>
           <div dangerouslySetInnerHTML={{ __html: recipe.contentHtml }} />
         </section>

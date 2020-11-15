@@ -20,7 +20,7 @@ ingredients:
   - ingredient: oliiviöljy
     quantity: "1"
     unit: rkl
-  - ingredient: tomaattisose
+  - ingredient: tomaattipyre
     quantity: "2"
     unit: rkl
   - ingredient: juustokumina

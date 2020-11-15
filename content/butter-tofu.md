@@ -1,84 +1,85 @@
 ---
 title: Butter tofu
 slug: butter-tofu
+originalUrl: https://chocochili.net/2019/08/vegaaninen-butter-tofu/
 duration: 60
 complexity: 3
 ingredients:
-  - ingredient: Sipuli
+  - ingredient: sipuli
     quantity: "1"
     unit: kpl
-  - ingredient: Valkosipuli
+  - ingredient: valkosipuli
     quantity: "4"
     unit: kynsi
-  - ingredient: Inkivääri
+  - ingredient: inkivääri
     quantity: "1"
     unit: rkl
-    details: Raastattuna
-  - ingredient: Margariini
+    details: raastattuna
+  - ingredient: margariini
     quantity: "3"
     unit: rkl
-  - ingredient: Garam masala
+  - ingredient: garam masala
     quantity: "1"
     unit: rkl
-  - ingredient: Curryjauhe
+  - ingredient: curryjauhe
     quantity: "1"
     unit: rkl
-  - ingredient: Korianterinsiemen
+  - ingredient: korianterinsiemen
     quantity: "0.5"
     unit: tl
-    details: Murskattuna
-  - ingredient: Paprikajauhe
+    details: murskattuna
+  - ingredient: paprikajauhe
     quantity: "0.5"
     unit: tl
-  - ingredient: Chilihiutale
+  - ingredient: chilihiutale
     quantity: "0.5"
     unit: tl
-  - ingredient: Kurkuma
+  - ingredient: kurkuma
     quantity: "0.25"
     unit: tl
-  - ingredient: Kardemumma
+  - ingredient: kardemumma
     quantity: "0.25"
     unit: tl
-  - ingredient: Kaneli
+  - ingredient: kaneli
     quantity: "0.25"
     unit: tl
-  - ingredient: Sokeri
+  - ingredient: sokeri
     quantity: "1"
     unit: rkl
-  - ingredient: Suola
+  - ingredient: suola
     quantity: "0.25"
     unit: tl
-  - ingredient: Paseerattu tomaatti
+  - ingredient: paseerattu tomaatti
     quantity: "400"
     unit: g
-  - ingredient: Vesi
+  - ingredient: vesi
     quantity: "0.25"
     unit: dl
-  - ingredient: Tomaattisose
+  - ingredient: tomaattisose
     quantity: "70"
     unit: g
-  - ingredient: Mantelijauhe
+  - ingredient: mantelijauhe
     quantity: "0.5"
     unit: dl
-  - ingredient: Kaurakerma, sipulinmaku
+  - ingredient: kaurakerma, sipulinmaku
     quantity: "2"
     unit: dl
-  - ingredient: Tofu, maustamaton
+  - ingredient: tofu, maustamaton
     quantity: "270"
     unit: g
-  - ingredient: Margariini
+  - ingredient: margariini
     quantity: "2"
     unit: rkl
-  - ingredient: Curryjauhe
+  - ingredient: curryjauhe
     quantity: "1"
     unit: tl
-  - ingredient: Suola
+  - ingredient: suola
     quantity: "0.25"
     unit: tl
-  - ingredient: Korianteri
+  - ingredient: korianteri
     quantity: "0.5"
     unit: puska
-    details: Tarjoiluun
+    details: tarjoiluun
 ---
 
 - Kääräise tofu ensin talouspaperiin ja laita se painon alle valumaan.
