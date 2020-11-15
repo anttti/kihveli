@@ -32,7 +32,7 @@ ol {
 }
 
 li {
-  @apply mb-1;
+  @apply mb-3;
 }
 
 li:last-of-type {

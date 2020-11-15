@@ -35,14 +35,14 @@ export default function Recipe({ recipe }) {
         </p>
       </div>
 
-      <div className="grid grid-cols-3">
-        <section className="col-span-1 mb-4 p-4 border border-solid border-blue-200 rounded bg-blue-100 text-gray-600 text-base">
+      <div className="md:grid grid-cols-8">
+        <section className="col-span-3 mb-4 p-4 border border-solid border-blue-200 rounded bg-blue-100 text-gray-600 text-base">
           <h2 className="leading-none mb-2 uppercase text-sm tracking-wider">
             Ainekset
           </h2>
           <ul className="p-0">
             {recipe.ingredients.map((ing) => (
-              <li key={ing.ingredient}>
+              <li key={ing.ingredient} className="mb-1">
                 <div className="flex">
                   <div className="w-24">
                     {ing.quantity && (
@@ -62,7 +62,7 @@ export default function Recipe({ recipe }) {
           </ul>
         </section>
 
-        <section className="col-span-2 pl-8 p-4">
+        <section className="col-span-5 md:pl-8 p-4">
           <h2 className="text-sm leading-none mb-2">Ohje</h2>
           <div dangerouslySetInnerHTML={{ __html: recipe.contentHtml }} />
         </section>
