@@ -55,7 +55,7 @@ ingredients:
   - ingredient: vesi
     quantity: "0.25"
     unit: dl
-  - ingredient: tomaattisose
+  - ingredient: tomaattipyre
     quantity: "70"
     unit: g
   - ingredient: mantelijauhe
