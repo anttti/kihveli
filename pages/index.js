@@ -20,7 +20,7 @@ export default function Home() {
 
           <ul>
             {allRecipesData.map((recipe) => (
-              <li>
+              <li key={recipe.slug}>
                 <label>
                   <input
                     type="checkbox"

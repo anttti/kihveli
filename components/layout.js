@@ -7,7 +7,6 @@ export default function Layout({ children, home }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Reseptit" />
         <title>{siteTitle}</title>
       </Head>
