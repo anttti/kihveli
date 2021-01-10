@@ -40,10 +40,10 @@ ingredients:
   - ingredient: korianteri
 ---
 
-- Kuumenna pannulla margariinissa raastettu valkosipuli, inkivääri, vaahterasiirappi ja murusteltu kasvisliemikuutio
-- Lisää kerma ja kurkuma ja anna kiehua pari minuuttia
-- Lisää sitruunan kuori ja mehu
-- Lisää Paahtopalat ja anna hautua hetki miedolla lämmöllä
-- Pyöräytä keitetty ja valutettu pasta kastikkeen joukkoon
-- Mausta suolalla ja pippurilla
-- Tarjoile korianterin kera
+- [ ] Kuumenna pannulla margariinissa raastettu valkosipuli, inkivääri, vaahterasiirappi ja murusteltu kasvisliemikuutio
+- [ ] Lisää kerma ja kurkuma ja anna kiehua pari minuuttia
+- [ ] Lisää sitruunan kuori ja mehu
+- [ ] Lisää Paahtopalat ja anna hautua hetki miedolla lämmöllä
+- [ ] Pyöräytä keitetty ja valutettu pasta kastikkeen joukkoon
+- [ ] Mausta suolalla ja pippurilla
+- [ ] Tarjoile korianterin kera
