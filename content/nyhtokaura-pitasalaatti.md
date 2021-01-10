@@ -1,6 +1,6 @@
 ---
 title: Nyhtökaura-pitasalaatti
-slug: nyhtökaura-pitasalaatti
+slug: nyhtokaura-pitasalaatti
 duration: 60
 complexity: 3
 ingredients:
