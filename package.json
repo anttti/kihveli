@@ -12,7 +12,7 @@
     "@babel/preset-env": "7.12.7",
     "autoprefixer": "10.0.4",
     "gray-matter": "4.0.2",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "next": "10.0.3",
     "overmind": "23.0.1",
     "overmind-react": "24.0.1",
