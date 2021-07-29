@@ -35,8 +35,19 @@ li {
   @apply mb-1;
 }
 
-.recipe li {
+.recipe ul li {
+  @apply list-disc;
+  @apply list-inside;
+}
+
+.recipe ol li {
   @apply mb-3;
+}
+
+.recipe h2,
+.recipe h3 {
+  @apply text-sm;
+  @apply mb-2;
 }
 
 li:last-of-type {

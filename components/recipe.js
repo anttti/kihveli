@@ -1,8 +1,8 @@
 import { useState } from "react";
 import _ from "lodash";
 
-const button = "border border-solid border-gray-400 px-2 py-1 rounded mr-2";
-const selectedButton = `${button} bg-gray-400`;
+const button = "border border-solid border-gray-300 px-2 py-1 rounded mr-2";
+const selectedButton = `${button} bg-blue-100 border-blue-200 text-gray-600`;
 
 export default function Recipe({ recipe }) {
   const [portions, setPortions] = useState(1);
@@ -11,8 +11,6 @@ export default function Recipe({ recipe }) {
     <>
       <div className="mb-4">
         <h1>{recipe.title}</h1>
-        {recipe.duration && <p>Kesto: {recipe.duration} min</p>}
-        {recipe.complexity && <p>Vaiva: {recipe.complexity}</p>}
         <p className="mt-2">
           <button
             className={portions === 0.5 ? selectedButton : button}
@@ -63,7 +61,6 @@ export default function Recipe({ recipe }) {
         </section>
 
         <section className="recipe col-span-5 md:pl-8 p-4">
-          <h2 className="text-sm leading-none mb-2">Ohje</h2>
           <div dangerouslySetInnerHTML={{ __html: recipe.contentHtml }} />
         </section>
       </div>
