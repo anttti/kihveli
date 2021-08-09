@@ -26,6 +26,38 @@ ingredients:
   - ingredient: maapähkinävoi
     quantity: "2"
     unit: rkl
+  - ingredient: BBQ-kastike
+    quantity: "1.5"
+    unit: dl
+    tag: marinadi
+  - ingredient: vesi
+    quantity: "1.5"
+    unit: dl
+    tag: marinadi
+  - ingredient: rypsiöljy
+    quantity: "0.5"
+    unit: dl
+    tag: marinadi
+  - ingredient: vaahterasiirappi
+    quantity: "0.75"
+    unit: dl
+    tag: marinadi
+  - ingredient: viski
+    quantity: "0.5"
+    unit: dl
+    tag: marinadi
+  - ingredient: suola
+    quantity: "1"
+    unit: tl
+    tag: marinadi
+  - ingredient: rosmariini
+    quantity: "1"
+    unit: tl
+    tag: marinadi
+  - ingredient: valkosipulijauhe
+    quantity: "1"
+    unit: tl
+    tag: marinadi
 ---
 
 1. Kuumenna uuni (200°C).

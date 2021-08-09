@@ -1,88 +1,75 @@
 ---
 title: Soijarouhelasagne
 slug: soijarouhelasagne
-duration: 60
-complexity: 3
 ingredients:
-  - ingredient: Sipuli
+  - ingredient: sipuli
     quantity: "2"
     unit: kpl
-  - ingredient: Valkosipuli
+    tag: tomaattikastike
+  - ingredient: valkosipuli
     quantity: "4"
     unit: kynsi
-  - ingredient: Oliiviöljy
+    tag: tomaattikastike
+  - ingredient: oliiviöljy
     quantity: "2"
     unit: rkl
-  - ingredient: Soijarouhe
+    tag: tomaattikastike
+  - ingredient: soijarouhe
     quantity: "2"
     unit: dl
-  - ingredient: Arrabbiata-pesto
+    tag: tomaattikastike
+  - ingredient: arrabbiata-pesto
     quantity: "1"
     unit: prk
-  - ingredient: Vesi
+    tag: tomaattikastike
+  - ingredient: vesi
     quantity: "2"
     unit: dl
-  - ingredient: Tomaattimurska
+    tag: tomaattikastike
+  - ingredient: tomaattimurska
     quantity: "500"
     unit: g
-  - ingredient: Tomaattipyre
+    tag: tomaattikastike
+  - ingredient: tomaattipyre
     quantity: "1"
     unit: rkl
-  - ingredient: Sokeri
+    tag: tomaattikastike
+  - ingredient: sokeri
     quantity: "1"
     unit: tl
-  - ingredient: Mustapippuri
-  - ingredient: Basilika
+    tag: tomaattikastike
+  - ingredient: mustapippuri
+    tag: tomaattikastike
+  - ingredient: basilika
     quantity: "1"
     unit: ruukku
-  - ingredient: Juustoraaste
+    tag: tomaattikastike
+  - ingredient: juustoraaste
     quantity: "250"
     unit: g
-  - ingredient: Kaurakerma, sipuli
+    tag: juustokastike
+  - ingredient: kaurakerma, sipuli
     quantity: "2"
     unit: dl
-  - ingredient: Kauramaito
+    tag: juustokastike
+  - ingredient: kauramaito
     quantity: "1"
     unit: dl
-  - ingredient: Valkosipulijauhe
+    tag: juustokastike
+  - ingredient: valkosipulijauhe
     quantity: "2"
     unit: tl
-  - ingredient: Kesäkurpitsa
+    tag: juustokastike
+  - ingredient: mustapippuri
+    tag: juustokastike
+  - ingredient: kesäkurpitsa
     quantity: "1"
     unit: kpl
-  - ingredient: Terttukirsikkatomaatti
+  - ingredient: terttukirsikkatomaatti
     quantity: "500"
     unit: g
-  - ingredient: Pinaattilasagnelevy
+  - ingredient: pinaattilasagnelevy
 ---
-
-### Tomaattikastike
-
-- 2 sipulia
-- 4 valkosipulinkynttä
-- 2 rkl oliiviöljyä
-- 2 dl tummaa soijarouhetta
-- 1 prk (135 g) vegaanista punaista pestoa (Pirkka Arrabbiata)
-- 2-3 dl vettä
-- 500 g tomaattimurskaa
-- 1 rkl tomaattipyreetä
-- 1 tl sokeria
-- mustapippuria myllystä
-- 1 ruukku tuoretta basilikaa
-
-### Juustokastike
-
-- 250 g vegaanista juustoa (Porlammin Vege Plus)
-- 2 dl sipulinmakuista kaurakermaa
-- 1 dl kauramaitoa
-- 2 tl valkosipulijauhetta
-- mustapippuria myllystä
-
-### Muut aineet
-
-- 1 pieni kesäkurpitsa
-- 500 g terttukirsikkatomaatteja
-- (pinaatti)lasagnelevyjä\*
 
 1. Silppua sipuli ja valkosipulinkynnet. Kuullota niitä hetki oliiviöljyssä ja lisää kattilaan sitten kuiva soijarouhe ja pesto. Kääntele seosta pannulla hetki ja lisää sitten pari desiä vettä parissa erässä.
 1. Kaada kattilaan tomaattimurska, huuhtele tölkki 1 dl vettä ja lisää se kattilaan. Mittaa joukkoon vielä tomaattipyree ja sokeri. Anna kastikkeen hautua miedolla lämmöllä juustokastikkeen valmistamisen ajan.

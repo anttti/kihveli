@@ -6,6 +6,15 @@ const selectedButton = `${button} bg-blue-100 border-blue-200 text-gray-600`;
 
 export default function Recipe({ recipe }) {
   const [portions, setPortions] = useState(1);
+  const ingredientsByTag = recipe.ingredients.reduce((acc, curr) => {
+    const tag = curr.tag || "default";
+    if (!acc[tag]) {
+      acc[tag] = [curr];
+    } else {
+      acc[tag].push(curr);
+    }
+    return acc;
+  }, {});
 
   return (
     <>
@@ -39,7 +48,7 @@ export default function Recipe({ recipe }) {
             Ainekset
           </h2>
           <ul className="p-0">
-            {recipe.ingredients.map((ing) => (
+            {ingredientsByTag.default.map((ing) => (
               <li key={ing.ingredient} className="mb-1">
                 <div className="flex">
                   <div className="w-24">
@@ -58,6 +67,35 @@ export default function Recipe({ recipe }) {
               </li>
             ))}
           </ul>
+          {Object.keys(ingredientsByTag)
+            .filter((k) => k !== "default")
+            .map((tag) => (
+              <>
+                <h2 className="leading-none mb-2 uppercase text-sm tracking-wider">
+                  {tag}
+                </h2>
+                <ul className="p-0">
+                  {ingredientsByTag[tag].map((ing) => (
+                    <li key={ing.ingredient} className="mb-1">
+                      <div className="flex">
+                        <div className="w-24">
+                          {ing.quantity && (
+                            <span className="font-bold">
+                              {ing.quantity * portions}
+                            </span>
+                          )}
+                          {ing.unit && ` ${ing.unit}`}
+                        </div>
+                        <div>{ing.ingredient}</div>
+                      </div>
+                      {ing.details && (
+                        <div className="pl-24 text-xs">({ing.details})</div>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ))}
         </section>
 
         <section className="recipe col-span-5 md:pl-8 p-4">

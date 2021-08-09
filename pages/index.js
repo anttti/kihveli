@@ -20,20 +20,24 @@ export default function Home() {
 
           <ul>
             {allRecipesData.map((recipe) => (
-              <li key={recipe.slug}>
+              <li key={recipe.slug} className="mb-2">
                 <label>
                   <input
                     type="checkbox"
+                    className="mr-2"
                     checked={state.selectedRecipeSlugs.find(
                       (r) => r === recipe.slug
                     )}
                     onChange={onToggleRecipe.bind(null, recipe.slug)}
                   />
-                  {" " + recipe.title + " "}
+                  <Link
+                    href="/recipes/[id]"
+                    as={`/recipes/${recipe.slug}`}
+                    className="no-underline hover:underline"
+                  >
+                    <a>{recipe.title}</a>
+                  </Link>
                 </label>
-                <Link href="/recipes/[id]" as={`/recipes/${recipe.slug}`}>
-                  <a>(resepti)</a>
-                </Link>
               </li>
             ))}
           </ul>
